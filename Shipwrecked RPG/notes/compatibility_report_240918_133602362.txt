@@ -1,0 +1,53 @@
+Converting GML script: ${project_dir}\scripts\scr_play\scr_play.gml
+Converted description /// @description scr_play(global.player_play, global.computer_play);/// @param global.player_play
+/// @param  global.computer_play
+
+!!! Font font_text uses a font (Digital tech) not installed on this system - Font has NOT been regenerated
+Converting GML script: ${project_dir}\objects\obj_setup\Create_0.gml
+Converted description /// @description set initial variables 
+
+Converting GML script: ${project_dir}\objects\obj_player_play\Create_0.gml
+Converted description /// @description set up
+
+Converting GML script: ${project_dir}\objects\obj_player_play\Step_0.gml
+Converted description /// @description detect key press for move
+Converted string - line 2: '1' -> "1"
+Converted string - line 8: '2' -> "2"
+Converted string - line 14: '3' -> "3"
+Converted string - line 20: '4' -> "4"
+
+Converting GML script: ${project_dir}\objects\obj_computer_play\Create_0.gml
+Converted description /// @description For Computer Hand
+
+Converting GML script: ${project_dir}\objects\obj_computer_play\Alarm_0.gml
+Converted description /// @description display result
+
+Converting GML script: ${project_dir}\objects\obj_global_drawing\Draw_0.gml
+Converted description /// @description draw stuff
+
+Converting GML script: ${project_dir}\objects\obj_result\Create_0.gml
+Converted description /// @description check result
+
+Converting GML script: ${project_dir}\objects\obj_result\Alarm_0.gml
+Converted description /// @description done, player to play
+
+Converting GML script: ${project_dir}\objects\obj_player\Create_0.gml
+Converted description /// @description set up
+
+Converting GML script: ${project_dir}\objects\obj_player\Step_0.gml
+Converted description /// @description keypress code
+
+Converting GML script: ${project_dir}\objects\obj_player_win\Draw_0.gml
+Converted description /// @description display battle result
+
+Converting GML script: ${project_dir}\objects\obj_computer_win\Draw_0.gml
+Converted description /// @description display battle result
+
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Missing audiogroup for sound: 'snd_computer_wins' - setting to default audio group
+Missing audiogroup for sound: 'snd_player_wins' - setting to default audio group
+Missing audiogroup for sound: 'snd_draw' - setting to default audio group
+Game speed set to 30
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script '__global_object_depths.gml'
