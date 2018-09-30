@@ -7,7 +7,7 @@ if (global.game_speed < 2)
 	drop = choose("bomb","fruit","fruit");
 	if (drop == "bomb")
 	{
-		var bomb = instance_create_depth(slot*64,120,0,obj_bomb);
+		var bomb = instance_create_layer(slot*64,120,layer,obj_bomb);
 		bomb.direction = 270;
 		bomb.speed = 2;
 		audio_play_sound(choose(snd_ar_1,snd_ar_2),1,false);

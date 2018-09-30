@@ -5,7 +5,7 @@ if (keyboard_check_pressed(vk_left) && slot > 1)
 	dir = left;
 	move_towards_point(64*slot,y,4);
 }
-if (keyboard_check_pressed(vk_right) && slot < 11)
+if (keyboard_check_pressed(vk_right)) && (slot < 11)
 {
 	slot++;
 	dir = right;
@@ -17,10 +17,14 @@ if (slot < 1) slot = 1;
 if (slot > 11) slot = 11;
 
 //stop movement
-if (x==64*slot) dir = 0; speed = 0;
+if (x==64*slot)
+{
+	dir = 0; 
+	speed = 0;
+}
 
 //spawn a sword
-if (keyboard_check_pressed(vk_up) && can_shoot) 
+if (keyboard_check_pressed(vk_up)) && (can_shoot) 
 {
 	can_shoot = false;
 	alarm[0] = room_speed;
