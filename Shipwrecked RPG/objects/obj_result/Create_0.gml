@@ -16,7 +16,7 @@ switch (result)
         global.text="Player Wins";
         break;
 }
-alarm[0]=room_speed*4;
+alarm[0]=room_speed*3;
 
 
 ///check score

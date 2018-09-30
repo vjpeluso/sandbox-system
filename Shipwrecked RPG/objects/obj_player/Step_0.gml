@@ -10,7 +10,7 @@ if (keyboard_check(ord("D")))
     dir=player_state .right;
     is_moving=true;
 }
-else
+elses
 if (keyboard_check(ord("W")))
 {
     dir=player_state .up;
