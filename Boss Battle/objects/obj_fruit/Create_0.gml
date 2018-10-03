@@ -1,5 +1,3 @@
-/// @description destroy off screen
-if (y > room_height) instance_destroy();
-
-
-
+/// @desc select random subimage
+image_index = irandom(image_number-1);
+image_speed = 0;

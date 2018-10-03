@@ -9,7 +9,7 @@
         "b3221a7d-e3b2-4a46-8737-7710c3aefc47"
     ],
     "filterType": "GMRoom",
-    "folderName": "Battle System",
+    "folderName": "Enemy Battle",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
