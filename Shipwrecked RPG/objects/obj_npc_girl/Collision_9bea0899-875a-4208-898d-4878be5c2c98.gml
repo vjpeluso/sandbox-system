@@ -1,2 +1,2 @@
 /// @description 
-room_goto(room_dialogue);
+room_goto(room_setup);

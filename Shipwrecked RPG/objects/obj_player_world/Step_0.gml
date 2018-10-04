@@ -1,4 +1,5 @@
 /// @description keypress code
+#region Movement
 if (keyboard_check(ord("A")))
 {
     dir=player_state.left;
@@ -27,8 +28,6 @@ else
     is_moving=false;
 }
 
-
-///movement
 if is_moving
 {
     switch (dir)
@@ -50,8 +49,9 @@ if is_moving
         break;
     }
 }
+#endregion
 
-///animation
+#region Animation
 if is_moving
 {
     switch (dir)
@@ -94,3 +94,4 @@ else
         break;
     }
 }
+#endregion

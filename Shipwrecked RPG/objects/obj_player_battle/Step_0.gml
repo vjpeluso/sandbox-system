@@ -27,7 +27,9 @@ if (x == 64*slot)
 
 #region Attacks
 if (keyboard_check_pressed(vk_up) && (can_shoot))
+
 {
+	can_shoot = false;
 	alarm[0] = room_speed;
 	var sword = instance_create_layer(x,y,layer,obj_player_sword);
 	sword.direction = sword_dir;

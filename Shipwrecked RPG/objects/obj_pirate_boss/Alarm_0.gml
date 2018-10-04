@@ -3,7 +3,6 @@ global.game_speed--;
 if (global.game_speed < 2) 
 {
 	global.game_speed = 2;
-	alarm[0] = global.game_speed;
 	drop = choose("bomb","fruit","fruit");
 	if (drop == "bomb")
 	{

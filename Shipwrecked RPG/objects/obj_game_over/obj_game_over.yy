@@ -5,16 +5,6 @@
     "name": "obj_game_over",
     "eventList": [
         {
-            "id": "34d69b4c-35e5-480e-bcbf-79605cbb3a26",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "8b9244a0-4c3b-432e-a28e-8bd2fe002b26"
-        },
-        {
             "id": "deaac608-a03a-40f5-b77b-5d15669bdec4",
             "modelName": "GMEvent",
             "mvc": "1.0",

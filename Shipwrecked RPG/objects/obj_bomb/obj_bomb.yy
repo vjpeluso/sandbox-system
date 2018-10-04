@@ -5,13 +5,13 @@
     "name": "obj_bomb",
     "eventList": [
         {
-            "id": "06b65ec5-b8f5-4770-a01f-91f95fc0c3b0",
+            "id": "82924c12-59d8-4675-b5f8-a9f24b865e7d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 3,
+            "eventtype": 7,
             "m_owner": "9ea22be0-1418-408a-9a30-d7ed70db89a1"
         }
     ],

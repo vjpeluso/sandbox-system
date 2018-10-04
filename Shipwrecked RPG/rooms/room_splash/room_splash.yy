@@ -2,7 +2,7 @@
 {
     "name": "room_splash",
     "id": "7dd8d003-2852-4030-a8e5-d1510e962508",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

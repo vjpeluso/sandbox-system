@@ -18,4 +18,4 @@ draw_set_valign(fa_middle);
 draw_text(234,20,"Player HP");
 draw_text(534,20,"Enemy HP");
 
-draw_text(room_width/2,620,"How to Play: Left/right arrow keys to move. Up arrow to fire.Shoot Enemy (when jumping)\nCollect Fruit - Avoid Bombs");
+draw_text(room_width/2,640,"How to Play: Left/right arrow keys to move. Up arrow to fire.Shoot Enemy (when jumping)\nCollect Fruit - Avoid Bombs");

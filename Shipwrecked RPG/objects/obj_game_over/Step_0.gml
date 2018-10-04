@@ -1,20 +1,7 @@
-/// @description 
-if (global.message == "You are \nVictorious")
+if (keyboard_check(vk_enter))
 {
-	win = true;
-	lose = false;
-	if (keyboard_check(vk_enter))
-	{
-		room_goto(room_first);
+	game_restart();
+}
 
-	}
-}
-else 
-{
-	lose = true;
-	win = false;
-	if (keyboard_check(ord("R")))
-	{
-		room_goto(room_first);
-	}
-}
+ 
+

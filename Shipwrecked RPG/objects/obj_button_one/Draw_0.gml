@@ -1,5 +1,5 @@
 /// @description 
-if (global.diag[global.message,2] = "")
+if (global.diag[global.message,2] != "")
 {
 	var width = string_width(global.diag[global.message,2]);
 	if (width > 50) 

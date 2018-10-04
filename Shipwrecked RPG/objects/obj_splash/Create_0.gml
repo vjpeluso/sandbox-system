@@ -1,6 +1,7 @@
 /// @description set up vars
-global.p1hp = 50;
-global.enemyhp = 50;
-global.gamespeed = 50;
+global.game_speed = 150;
+global.p1hp = 100;
+global.enemyhp = 100;
 
+room_goto(room_game);
 

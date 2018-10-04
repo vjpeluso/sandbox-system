@@ -5,16 +5,6 @@
     "name": "obj_fruit",
     "eventList": [
         {
-            "id": "8aad91b6-a9f2-4384-99d4-ce02c4221873",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "3a955cb3-04e9-4186-acb9-cd254cd925b0"
-        },
-        {
             "id": "f455ecef-e7e0-4208-82ca-fad47edd5f63",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -22,6 +12,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
+            "m_owner": "3a955cb3-04e9-4186-acb9-cd254cd925b0"
+        },
+        {
+            "id": "3e1cf741-396f-4a7c-9293-01625db19862",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 7,
             "m_owner": "3a955cb3-04e9-4186-acb9-cd254cd925b0"
         }
     ],
