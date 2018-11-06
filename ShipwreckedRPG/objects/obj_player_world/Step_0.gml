@@ -1,5 +1,5 @@
 /// @description keypress code
-//if (!object_exists(obj_hud_main))
+
 #region Movement
 if (keyboard_check(ord("A")))
 {
@@ -100,16 +100,7 @@ else
     }
 }
 #endregion
-#region Sound
-///select walking fx
-var soundfx=snd_normal;
-if position_meeting(x,y,obj_water) soundfx=snd_water;
-else if position_meeting(x,y,obj_leaves) soundfx=snd_leaves;
-else if position_meeting(x,y,obj_wood) soundfx=snd_wood;
-else if position_meeting(x,y,obj_solid) soundfx=snd_solid;
-//play the sound
-if is_moving && !audio_is_playing(soundfx) audio_play_sound(soundfx,1,false);
-#endregion
+#region Abilities
 if keyboard_check_released(ord("I")) //switch between true/false on keypress
 {
 	invincible=!invincible;
@@ -125,3 +116,19 @@ else{image_blend = make_color_rgb(255,255,255);}
 
 //check if player has invincible timer
 if invincible_tmr<1 invincible = false;
+#endregion
+#region SFX
+///select walking fx
+var soundfx=snd_normal;
+if position_meeting(x,y,obj_water) soundfx=snd_water;
+else if position_meeting(x,y,obj_leaves) soundfx=snd_leaves;
+else if position_meeting(x,y,obj_wood) soundfx=snd_wood;
+else if position_meeting(x,y,obj_solid) soundfx=snd_solid;
+//play the sound
+if is_moving && !audio_is_playing(soundfx) audio_play_sound(soundfx,1,false);
+
+//update audio position
+audio_listener_position(x,y,0);
+audio_listener_orientation(0,-1,0,0,-1,0);
+
+#endregion

@@ -19,6 +19,9 @@ invincible=false;
 invincible_tmr=100;
 alarm[1]=20; // to replenish
 
+//Set respawn location
+respawn_x = x;
+respawn_y = y;
 
 
 

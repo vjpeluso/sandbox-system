@@ -38,7 +38,7 @@ if (show_text != "") //draw text bubble if text present
 	false);
 	
 	//draw the message
-	draw_set_font(font_message);
+	draw_set_font(font_message1);
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_middle);
 	draw_set_colour(c_black);
